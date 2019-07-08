@@ -22,7 +22,7 @@ public class MyList<E> {
         elements[size++] = e;
     }
     public Object[] clone(){
-        Object eleClone[] = new E[size];
+        Object eleClone[] = new Object[size];
         for (int i =0; i < size;i++){
             eleClone[i] = this.elements[i];
         }
